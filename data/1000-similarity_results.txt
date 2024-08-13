@@ -1,0 +1,14 @@
+Hyperparameters:
+embedding_dim: 17
+gen_dim: (256, 256)
+dis_dim: (256, 256)
+l2scale: 1e-06
+batch_size: 64
+epochs: 1000
+pack: 1
+loss: cross_entropy
+
+Mean Squared Error: 596.74072265625
+KS Test Statistic: 0.3332088955255719
+Jensen-Shannon Divergence: 0.6464078093658971
+KL Divergence: 3.642027130784335
